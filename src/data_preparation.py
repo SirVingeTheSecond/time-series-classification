@@ -200,7 +200,7 @@ def main_q2():
     print(f"Y shape: {Y.shape}")
     print(f"Unique annotation symbols: {np.unique(annot_symb)}")
 
-    return X, Y, annot_symb
+    return X, Y
 
 
 if __name__ == "__main__":
