@@ -1,4 +1,4 @@
-from src.data_preparation import main_q1
+from src.data_preparation import main_q1, main_q2
 
 
 def main():
@@ -7,6 +7,7 @@ def main():
     print("=" * 70)
 
     main_q1()
+    main_q2()
 
     print("\n" + "=" * 70)
     print("Done!")
